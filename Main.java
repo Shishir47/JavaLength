@@ -1,6 +1,5 @@
-package testproj;
 import java.util.Scanner;
-public class Animals {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -10,8 +9,9 @@ public class Animals {
 		try{for(int i=0;r[i]!='\0';i++) {
 			 count++;
 			 
-		 }
-		}catch(IndexOutOfBoundsException e) {
+		}
+		}
+		catch(IndexOutOfBoundsException e) {
 			System.out.println(count);
 		}
 
